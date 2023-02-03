@@ -1,6 +1,7 @@
-import { StyleSheet, Text, View } from "react-native";
-import Maps from "./components/Maps";
-import BottomComponent from "./components/BottomComponent";
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import BottomComponent from './components/BottomComponent'
+
 
 export default function App() {
   return (
@@ -8,14 +9,14 @@ export default function App() {
       <Text>Open up App.tsx to start working on your app!</Text>
       <BottomComponent />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "gray",
-    alignItems: "center",
-    justifyContent: "center",
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
-});
+})

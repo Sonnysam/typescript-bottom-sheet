@@ -18,7 +18,7 @@ export default function BottomComponent() {
         enablePanDownToClose={true}
         onClose={() => setIsOpen(false)}
       >
-        <BottomSheetView children>
+        <BottomSheetView>
           <Text>BottomSheetView</Text>
         </BottomSheetView>
       </BottomSheet>
